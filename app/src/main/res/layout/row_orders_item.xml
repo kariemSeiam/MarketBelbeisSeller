@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginStart="@dimen/_20sdp"
+    android:layout_marginEnd="@dimen/_20sdp"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_height="wrap_content">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_55sdp"
+        app:cardCornerRadius="@dimen/_20sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        >
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ivCartItemImage1"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_margin="@dimen/_10sdp"
+                android:elevation="@dimen/_10sdp"
+                android:outlineSpotShadowColor="@color/mainColor"
+                android:src="@drawable/ad_item_2"
+                app:civ_border_color="@color/mainColor"
+                app:civ_border_width="@dimen/_1sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvCartItemName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/cairo"
+                android:gravity="center"
+                android:maxLines="1"
+                android:paddingStart="@dimen/_5sdp"
+                android:paddingEnd="@dimen/_5sdp"
+                android:text="ساعه رولكس ضد الميه "
+                android:textColor="@color/mainDarkColor"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold"
+
+                app:layout_constraintStart_toEndOf="@+id/ivCartItemImage1"
+                app:layout_constraintTop_toTopOf="@+id/ivCartItemImage1" />
+
+            <TextView
+
+                android:id="@+id/tvCartItemPrice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_18sdp"
+                android:fontFamily="@font/cairo"
+                android:gravity="center"
+                android:text="600 ج"
+                android:textColor="@color/mainDarkColor"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@id/ordersRowMenuView"
+                app:layout_constraintTop_toTopOf="parent"
+
+                />
+
+            <ImageView
+                android:id="@+id/ordersRowMenuView"
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:isScrollContainer="true"
+                android:src="@drawable/ic_menu"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/btnAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:background="@drawable/background_product_status"
+                android:fontFamily="@font/cairo"
+                android:gravity="center"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp"
+                android:text="Pending"
+                android:textColor="#FB8C00"
+                android:textSize="@dimen/_8sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ivCartItemImage1"
+                app:layout_constraintTop_toBottomOf="@+id/tvCartItemName1" />
+
+            <androidx.appcompat.widget.AppCompatRatingBar
+                android:id="@+id/ratingBarCartProduct"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="3.5"
+                android:theme="@style/CustomRatingBar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/tvCartItemPrice1"
+                app:layout_constraintHorizontal_bias="0.509"
+                app:layout_constraintStart_toEndOf="@+id/btnAdd"
+                app:layout_constraintTop_toBottomOf="@+id/tvCartItemName1"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/tvCartItemPriceSale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back_ic_cart"
+                android:fontFamily="@font/cairo"
+                android:gravity="center"
+                android:paddingStart="@dimen/_6sdp"
+                android:paddingTop="@dimen/_1sdp"
+                android:paddingEnd="@dimen/_6sdp"
+                android:paddingBottom="@dimen/_1sdp"
+                android:text="- 50 %"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_7sdp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="276dp"
+                tools:layout_editor_absoluteY="45dp" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+</FrameLayout>

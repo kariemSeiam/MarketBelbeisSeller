@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "4308574790",
+    "firebase_url": "https://market-belbeis.firebaseio.com",
+    "project_id": "market-belbeis",
+    "storage_bucket": "market-belbeis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4308574790:android:e65779ac236cfc3e0d2047",
+        "android_client_info": {
+          "package_name": "com.erots.marketbelbeis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4308574790-lc6uer9ms880hdcufch9039unqljhaf9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGcw6eZgOhK78Whbg7F352JbcxUr4ow8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4308574790-lc6uer9ms880hdcufch9039unqljhaf9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4308574790:android:29fee3a0b88003350d2047",
+        "android_client_info": {
+          "package_name": "com.erots.marketbelbeis.android.seller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4308574790-lc6uer9ms880hdcufch9039unqljhaf9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGcw6eZgOhK78Whbg7F352JbcxUr4ow8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4308574790-lc6uer9ms880hdcufch9039unqljhaf9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/storeFragment"
+        android:name="com.erots.marketbelbeis.android.seller.ui.store.StoreFragment"
+        android:label="store_fragment"
+        tools:layout="@layout/store_fragment" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.erots.marketbelbeis.android.seller.ui.chat.ChatFragment"
+        android:label="chat_fragment"
+        tools:layout="@layout/chat_fragment" />
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.erots.marketbelbeis.android.seller.ui.dashboard.DashboardFragment"
+        android:label="dashboard_fragment"
+        tools:layout="@layout/dashboard_fragment" />
+
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.erots.marketbelbeis.android.seller.ui.notification.NotificationFragment"
+        android:label="notification_fragment"
+        tools:layout="@layout/notification_fragment" />
+
+    <fragment
+        android:id="@+id/productsFragment"
+        android:name="com.erots.marketbelbeis.android.seller.ui.product.ProductsFragment"
+        android:label="products_fragment"
+        tools:layout="@layout/products_fragment" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.erots.marketbelbeis.android.seller.ui.auth.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/login_fragment" />
+
+    <fragment
+        android:id="@+id/restPassFragment"
+        android:name="com.erots.marketbelbeis.android.seller.ui.auth.RestPassFragment"
+        android:label="RestPassFragment"
+        tools:layout="@layout/rest_pass_fragment" />
+    <fragment
+        android:id="@+id/postProductFragment"
+        android:name="com.erots.marketbelbeis.android.seller.ui.post_product.PostProductFragment"
+        android:label="post_product_fragment"
+        tools:layout="@layout/post_product_fragment" />
+    <fragment
+        android:id="@+id/ordersFragment"
+        android:name="com.erots.marketbelbeis.android.seller.ui.orders.OrdersFragment"
+        android:label="OrdersFragment"
+        tools:layout="@layout/orders_fragment" />
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.erots.marketbelbeis.android.seller.ui.auth.RegisterFragment"
+        android:label="RegisterFragment"
+        tools:layout="@layout/register_fragment" />
+</navigation>

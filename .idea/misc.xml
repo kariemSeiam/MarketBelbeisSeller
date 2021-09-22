@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2833333333333333" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable/back_add_to_cart_imageview.xml" value="0.2833333333333333" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable/back_bottom_nav.xml" value="0.1712962962962963" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable/back_fav_imageview.xml" value="0.20205128205128206" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable/back_ic_cart.xml" value="0.20205128205128206" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable/back_row_cat.xml" value="0.1712962962962963" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable/background_bottom_nav.xml" value="0.20205128205128206" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable/background_home_recycler_products.xml" value="0.20205128205128206" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable/background_less_cart.xml" value="0.19166666666666668" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable/background_less_cart_item.xml" value="0.24259259259259258" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable/background_more_cart_item.xml" value="0.20205128205128206" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable/background_product_status.xml" value="0.1685185185185185" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable/ic_account.xml" value="0.20205128205128206" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable/ic_add_to_cart.xml" value="0.20205128205128206" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable/ic_best_seller.xml" value="0.20205128205128206" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable/ic_cart_logo.xml" value="0.2833333333333333" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable/ic_cat.xml" value="0.1287037037037037" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable/ic_chat.xml" value="0.1712962962962963" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable/ic_favorite.xml" value="0.2833333333333333" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable/ic_kitchen.xml" value="0.2833333333333333" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable/ic_menu.xml" value="0.2518518518518518" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable/ic_notification.xml" value="0.1712962962962963" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable/ic_popular.xml" value="0.2833333333333333" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable/ic_round_add.xml" value="0.2833333333333333" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable/ic_round_remove.xml" value="0.1287037037037037" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable/ic_televisions.xml" value="0.20205128205128206" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable/ic_un_favorite.xml" value="0.20205128205128206" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable/ic_views.xml" value="0.1685185185185185" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/drawable/rounded_back_ad_recycler_product.xml" value="0.20205128205128206" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/layout-v28/login_fragment.xml" value="0.10989583333333333" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/layout/account_fragment.xml" value="0.15780141843971632" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/layout/activity_main.xml" value="0.15780141843971632" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/layout/bottom_sheet_dialog_date_picker.xml" value="0.22" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/layout/bottom_sheet_dialog_time_picker.xml" value="0.25" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/layout/chat_fragment.xml" value="0.3578125" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/layout/dashboard_fragment.xml" value="0.25" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/layout/login_fragment.xml" value="0.16" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/layout/main_activity.xml" value="0.22" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/layout/main_fragment.xml" value="0.25" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/layout/notification_fragment.xml" value="0.3578125" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/layout/orders_fragment.xml" value="0.2" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/layout/post_product_fragment.xml" value="0.22" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/layout/products_fragment.xml" value="0.16" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/layout/register_fragment.xml" value="0.33" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/layout/rest_pass_fragment.xml" value="0.25135135135135134" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/layout/row_dashboard.xml" value="0.33" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/layout/row_orders_item.xml" value="0.33" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/layout/row_product_dashboard.xml" value="0.4914772727272727" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/layout/row_products_item.xml" value="0.25" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/layout/row_test.xml" value="0.22" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller/app/src/main/res/menu/bottom_menu_nav.xml" value="0.25" />
+        <entry key="..\:/Android Studio/final/MarketBelbeisSeller2/app/src/main/res/layout/main_activity.xml" value="0.3578125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

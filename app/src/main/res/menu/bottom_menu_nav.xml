@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/productsFragment"
+        android:icon="@drawable/ic_cat"
+        android:title="Products"
+
+        />
+
+
+    <item
+        android:id="@+id/dashboardFragment"
+        android:icon="@drawable/ic_homepage"
+        android:title="Dashboard"
+
+        />
+
+
+    <item
+        android:id="@+id/ordersFragment"
+        android:icon="@drawable/ic_robabikia"
+        android:title="Orders"
+
+        />
+
+
+
+</menu>

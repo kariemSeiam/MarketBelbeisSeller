@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomRatingBar" parent="Widget.AppCompat.RatingBar.Small">
+        <item name="colorAccent" >#FFEB3B</item>
+
+    </style>
+
+    <style name="Theme.MarketBelbeis.RatingBar" parent="Theme.MaterialComponents.DayNight">
+        <!-- Primary brand color. -->
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#FFEE58</item>
+    </style>
+</resources>

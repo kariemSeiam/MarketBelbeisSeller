@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+    >
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardViewAdBanner"
+        android:layout_width="@dimen/_115sdp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:outlineAmbientShadowColor="@color/mainColor"
+        android:outlineSpotShadowColor="@color/mainColor"
+        app:cardCornerRadius="@dimen/_20sdp"
+        app:cardElevation="@dimen/_3sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="@color/mainColor"
+        app:strokeColor="@color/mainColor">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            >
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ivCartItemImage"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:elevation="@dimen/_10sdp"
+                android:outlineSpotShadowColor="@color/mainColor"
+                android:src="@drawable/ad_item_2"
+                app:civ_border_color="@color/mainColor"
+                app:civ_border_width="@dimen/_1sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:id="@+id/tvCartItemName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:ellipsize="end"
+                android:fontFamily="@font/cairo"
+                android:gravity="center"
+                android:maxLines="1"
+                android:paddingStart="@dimen/_5sdp"
+                android:paddingEnd="@dimen/_5sdp"
+                android:text="ساعه رولكس ضد الميه "
+                android:textColor="@color/mainDarkColor"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ivCartItemImage"
+
+                />
+
+            <androidx.appcompat.widget.AppCompatRatingBar
+                android:id="@+id/ratingBarCartProduct"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="3.5"
+                android:theme="@style/Theme.MarketBelbeis.RatingBar"
+                app:layout_constraintBottom_toTopOf="@id/tvCartItemPrice"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvCartItemStoreName" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_3sdp"
+                android:text="(50)"
+                android:textSize="@dimen/_6sdp"
+                app:layout_constraintBottom_toBottomOf="@id/ratingBarCartProduct"
+                app:layout_constraintStart_toEndOf="@id/ratingBarCartProduct"
+                app:layout_constraintTop_toTopOf="@id/ratingBarCartProduct" />
+
+
+            <TextView
+                android:id="@+id/tvCartItemPriceSale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_18sdp"
+                android:background="@drawable/back_ic_cart"
+                android:fontFamily="@font/cairo"
+                android:gravity="center"
+                android:paddingStart="@dimen/_6sdp"
+                android:paddingTop="@dimen/_1sdp"
+                android:paddingEnd="@dimen/_6sdp"
+                android:paddingBottom="@dimen/_1sdp"
+                android:text="- 50 %"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_7sdp"
+                app:layout_constraintBottom_toBottomOf="@+id/tvCartItemPrice"
+                app:layout_constraintEnd_toStartOf="@id/tvCartItemPrice"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/tvCartItemPrice" />
+
+            <TextView
+
+                android:id="@+id/tvCartItemPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_18sdp"
+                android:fontFamily="@font/cairo"
+                android:gravity="center"
+                android:text="600 ج"
+                android:textColor="@color/mainDarkColor"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintBottom_toTopOf="@id/layoutCount"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/tvCartItemPriceSale"
+                app:layout_constraintTop_toBottomOf="@id/ratingBarCartProduct" />
+
+            <TextView
+                android:id="@+id/tvCartItemStoreName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+
+                android:fontFamily="@font/cairo"
+                android:gravity="center"
+                android:text="Kataki Store"
+                android:textColor="@color/mainColor"
+                android:textSize="@dimen/_8sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvCartItemName"
+
+                />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/layoutCount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/_2sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+
+
+                >
+
+
+                <LinearLayout
+                    android:id="@+id/constraint_row_product_status_end"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:background="@drawable/back_fav_imageview"
+                    android:orientation="horizontal"
+                    android:paddingEnd="@dimen/_7sdp"
+                    android:weightSum="2"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/cairo"
+                        android:gravity="center"
+                        android:paddingStart="@dimen/_5sdp"
+                        android:text=" 15445 "
+                        android:textColor="#B71C1C"
+                        android:textSize="@dimen/_7sdp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="@dimen/_12sdp"
+                        android:layout_height="@dimen/_12sdp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_favorite"
+
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/constraint_row_product_status_start"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:background="@drawable/back_add_to_cart_imageview"
+                    android:orientation="horizontal"
+                    android:paddingStart="@dimen/_7sdp"
+                    android:weightSum="2"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+
+
+                    >
+
+
+                    <ImageView
+                        android:layout_width="@dimen/_12sdp"
+                        android:layout_height="@dimen/_12sdp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_views"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/cairo"
+                        android:gravity="center"
+                        android:paddingEnd="@dimen/_5sdp"
+                        android:text=" 12035 "
+                        android:textColor="#00579C"
+                        android:textSize="@dimen/_7sdp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</FrameLayout>

@@ -1,0 +1,33 @@
+<resources>
+        <string name="app_name">Market Belbeis Seller</string>
+
+    <string-array
+            name="product_type"
+            >
+                <item>choose the product category </item>
+                <item>Mobiles, Tablets &amp; Accessories</item>
+                <item>Computers &amp; Office Supplies</item>
+                <item>TVs &amp; Electronics</item>
+                <item>Women's Fashion</item>
+                <item>Men's Fashion</item>
+                <item>Kids Fashion</item>
+                <item>Health, Beauty &amp; Perfumes</item>
+                <item>Supermarket</item>
+                <item>Home, Furniture &amp; Tools</item>
+                <item>Kitchen &amp; Appliances</item>
+                <item>Toys, Games &amp; Baby</item>
+                <item>Sports, Fitness &amp; Outdoors</item>
+                <item>Books</item>
+                <item>Video Games</item>
+                <item>Automotive</item>
+                <item>Supermarket</item>
+        </string-array>
+        <string-array
+            name="grander"
+            >
+                <item>Both of them</item>
+                <item>Male</item>
+                <item>Female</item>
+
+        </string-array>
+</resources>

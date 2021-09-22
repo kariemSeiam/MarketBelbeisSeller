@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_20sdp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/rowProductImageView"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_margin="@dimen/_20sdp"
+                android:src="@drawable/ad_item_2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvProductTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cairo"
+                android:hint="المنتج"
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/rowProductImageView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/rowProductImageView"
+                app:layout_constraintTop_toTopOf="@+id/rowProductImageView" />
+
+            <TextView
+                android:id="@+id/tvProductStoreName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cairo"
+                android:hint="البائع"
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/rowProductImageView"
+                app:layout_constraintTop_toBottomOf="@id/tvProductTitle" />
+
+            <TextView
+                android:id="@+id/tvProductType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cairo"
+                android:hint="النوع"
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/rowProductImageView"
+                app:layout_constraintTop_toBottomOf="@id/tvProductStoreName" />
+
+            <TextView
+                android:id="@+id/tvProductContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/cairo"
+                android:hint="المحتوي"
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.505"
+                app:layout_constraintStart_toEndOf="@+id/rowProductImageView"
+                app:layout_constraintTop_toBottomOf="@id/tvProductType" />
+
+            <TextView
+                android:id="@+id/tvProductPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cairo"
+                android:hint="السعر"
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/tvProductContent"
+                app:layout_constraintHorizontal_bias="0.538"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/tvProductContent" />
+
+            <TextView
+                android:id="@+id/tvProductStatues"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cairo"
+                android:hint="الحاله"
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/tvProductPrice"
+                app:layout_constraintTop_toBottomOf="@id/tvProductPrice" />
+
+            <TextView
+                android:id="@+id/tvProductDiscount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cairo"
+                android:hint="الخصم"
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/tvProductStatues"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.548"
+                app:layout_constraintStart_toEndOf="@+id/rowProductImageView"
+                app:layout_constraintTop_toBottomOf="@+id/tvProductPrice" />
+
+            <TextView
+                android:id="@+id/tvProductQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/cairo"
+                android:hint="الكميه"
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/tvProductStatues"
+                app:layout_constraintTop_toBottomOf="@id/tvProductDiscount" />
+
+            <TextView
+                android:id="@+id/tvProductPublishedAt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cairo"
+                android:hint="تم النشر الساعه"
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.692"
+                app:layout_constraintStart_toEndOf="@+id/rowProductImageView"
+                app:layout_constraintTop_toTopOf="@+id/tvProductQuantity" />
+
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+</layout>
